@@ -9,9 +9,9 @@ const Hero = () => {
 
             {/* LEFT SIDE */}
             <div className='left'>
-                <p>Follow exchage rates easily with</p>
+                <p>Follow exchange rates easily with</p>
                 <h1>Crypto Currency Tracker</h1>
-                <p>Buy, sell and trade hundreds of crypto</p>
+                <p>The fastest way to buy, sell and trade hundreds of crypto</p>
                 <div className='input-container'>
                     <button className='btn'>Sign in</button>
                 </div>
