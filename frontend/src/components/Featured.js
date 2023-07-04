@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import BTC from '../assets/bitcoin.png'
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
 import './Featured.css'
 
 const Featured = () => {
+
+
+
 
     const [data, setData] = useState(null)
 
@@ -23,13 +26,13 @@ const Featured = () => {
     if(!data) return null
 
   return (
-    <div className='featured'>
+    <div id='explore' className='featured'>
         <div className='container'>
             {/* left side */}
             <div className='left'>
                 <h2>Explore top Crypto's like Bitcoin, Etherum...</h2>
                 <p>See all available assets: Cryptocurrencies and NFT's</p>
-                <button className='btn'>See More Coins</button>
+                <Link to='/cryptobase' ><button className='btn'>See More Coins</button></Link>
             </div>
             {/* right side */}
             <div className='right'>

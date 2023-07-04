@@ -8,8 +8,9 @@
 	--pale-grey: #84a4bc;
 	--dark-grey: #475460;
 	--background: #f5f8ff;
-	
 }
+
+
 
 .primary{
 	color: var(--primary);
@@ -19,6 +20,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 ul{
@@ -108,15 +110,15 @@ input{
 	font-size: 1.1rem;
 	line-height: 1.2;
 	}
-	
+
 	p{
 	font-size: 1.2rem;
-	}	
+	}
 
 	.btn {
 	width: 100%;
 	margin: 1rem 0;
-	}	
+	}
 
 	input{
 	width: 100%;

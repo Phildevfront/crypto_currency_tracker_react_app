@@ -72,7 +72,7 @@
 }
 
 .featured span{
-    font-size: 21px;
+    font-size: 20px;
 }
 
 
@@ -92,5 +92,11 @@
     .featured .left .btn {
         align-self: center;
     }
-    
+
+}
+
+@media screen and (max-width: 478px) {
+    .featured .container .right .card {
+        width: 100%;
+    }
 }

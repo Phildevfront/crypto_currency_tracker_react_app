@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='header'>
         <div className='container'>
             <div className='container-logo' >
-            <img className='logo-img' src={Cryptologo} />
+            <img className='logo-img' src={Cryptologo} alt='' />
             <h3 className='header-logo'> Crypto Currency <span className='red-logo'>Tracker</span></h3>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a href='/'>Home</a>
                 </li>
                 <li>
-                    <a href='/'>Explore</a>
+                    <a href='#explore'>Explore</a>
                 </li>
                 <li>
                     <a href='/'>Earn</a>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <a href='/'>Contact</a>
                 </li>
             </ul>
-            <div className='btn-group'> 
+            <div className='btn-group'>
                 <button className='btn'>Register</button>
             </div>
             <div className='nav-mobile' onClick={handleClick}>
