@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import {FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 import  Cryptologo from '../assets/coin-img.png'
@@ -16,18 +17,18 @@ const Navbar = () => {
             <h3 className='header-logo'> Crypto Currency <span className='red-logo'>Tracker</span></h3>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li>
-                    <a href='/'>Home</a>
-                </li>
-                <li>
-                    <a href='#explore'>Explore</a>
-                </li>
-                <li>
-                    <a href='/'>Earn</a>
-                </li>
-                <li>
-                    <a href='/'>Contact</a>
-                </li>
+                <NavLink to="/">
+                    Home
+                </NavLink>
+                <NavLink to="featured">
+                    Explore
+                </NavLink>
+                <NavLink to="coinsbase">
+                    Crypto
+                </NavLink>
+                <NavLink to="contact">
+                    Contact
+                </NavLink>
             </ul>
             <div className='btn-group'>
                 <button className='btn'>Register</button>

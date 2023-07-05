@@ -42,7 +42,7 @@ img.logo-img{
     display: flex;
 }
 
-.nav-menu li{
+.nav-menu a{
     padding: 0 1rem;
 }
 

@@ -1,0 +1,22 @@
+.item-container{
+	height: 80px;
+	border-bottom: 1px solid rgba(130, 130, 130, 0.739);
+	overflow: hidden;
+}
+
+
+.coin-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.coin-image img{
+	width: 1.5rem;
+	margin-right: 0.5rem;
+
+}
+
+.cell{
+	text-align: center;
+}
