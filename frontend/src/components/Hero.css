@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+
 }
 
 .hero .left{
@@ -26,6 +27,7 @@
 .hero .img-container{
     width: 100%;
     display: flex;
+    margin-top: 4rem;
 }
 
 .hero img{
@@ -37,6 +39,38 @@
     .hero .container{
         grid-template-columns: 1fr;
         margin: 1rem 0;
+    }
+}
+
+.signup .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.signup .left {
+    text-align: center;
+}
+
+.signup img {
+    width: 300px;
+    margin-top: 2rem;
+}
+
+.signup img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.signup .right p {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .signup .container {
+        grid-template-columns: 1fr;
     }
 }
 

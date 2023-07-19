@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import CoinItem from '../components/CoinItem';
-import './CoinBase.css'
+import './CoinsBase.css'
 
 const CoinsBase = () => {
 
@@ -33,14 +33,14 @@ const CoinsBase = () => {
     <thead>
       <tr className='row'>
         <th className='cell'></th>
-        <th>#</th>
-        <th>Coin</th>
-        <th>Symbol</th>
-        <th>Price</th>
-        <th>24h</th>
-        <th>24h Volume</th>
-        <th>Mkt</th>
-        <th>Last 7 Days</th>
+        <th className='cell'>#</th>
+        <th className='cell'>Coin</th>
+        <th className='cell'>Symbol</th>
+        <th className='cell'>Price</th>
+        <th className='cell'>24h</th>
+        <th className='cell'>24h Volume</th>
+        <th className='cell'>Mkt</th>
+        <th className='cell'>Last 7 Days</th>
       </tr>
     </thead>
     <tbody>

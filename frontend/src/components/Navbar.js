@@ -17,21 +17,20 @@ const Navbar = () => {
             <h3 className='header-logo'> Crypto Currency <span className='red-logo'>Tracker</span></h3>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <NavLink to="/">
-                    Home
-                </NavLink>
-                <NavLink to="featured">
-                    Explore
+                <NavLink to="hero">
+                    <a href="/">Home</a>
                 </NavLink>
                 <NavLink to="coinsbase">
-                    Crypto
+                    Coin
                 </NavLink>
-                <NavLink to="contact">
-                    Contact
+                    <a href="#footer">Contact</a>
+                <NavLink to="register">
+                    <button className='btn'>Register</button>
                 </NavLink>
+
             </ul>
             <div className='btn-group'>
-                <button className='btn'>Register</button>
+
             </div>
             <div className='nav-mobile' onClick={handleClick}>
                 {click ? (<FaTimes size={20} style={{color: '#fff'}}/>) : (<FaBars size={20} style={{color: '#fff'}}/>)}

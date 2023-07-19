@@ -71,11 +71,11 @@ p{
 }
 
 .btn {
-	padding: 14px 32px;
+	padding: 10px 40px;
 	border: 1px solid var(--primary);
 	background-color: var(--primary);
 	color: #fff;
-	border-radius: 24px 4px;
+	border-radius: 5px;
 	font-size: 1.1rem;
 	font-weight: 600;
 	cursor: pointer;

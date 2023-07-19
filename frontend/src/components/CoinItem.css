@@ -1,6 +1,6 @@
 .item-container{
 	height: 80px;
-	border-bottom: 1px solid rgba(130, 130, 130, 0.739);
+	border-bottom: 1px solid rgba(175, 175, 175, 0.739);
 	overflow: hidden;
 }
 
@@ -17,6 +17,15 @@
 
 }
 
-.cell{
+.item-data{
 	text-align: center;
+	/* border-right: 1px solid black; */
+}
+
+.green{
+	color: green;
+}
+
+.red{
+	color: red;
 }

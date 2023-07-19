@@ -1,0 +1,84 @@
+.container{
+	width: 100%;
+}
+
+.wrapper{
+box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+border-radius: 10px;
+padding: 10px;
+}
+
+.coin-name{
+	display: flex;
+	flex-direction: row;
+	/* padding-top: 2rem; */
+}
+
+.coin-name img{
+	width: 4rem;
+	margin-right: 2rem;
+}
+
+.coin-name_text{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.coin-name_symbol{
+	font-size: 1rem;
+}
+
+
+.market-data{
+	display: grid;
+	margin-top: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+}
+
+.market-data_wrapper_current_price{
+	display: flex;
+	justify-content:space-between;
+}
+
+.market-data_wrapper_current_price_price{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.market-data_wrapper_market_cap{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.market-data_text{
+	color: gray;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.market-data_market_stats_text{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.market-data_wrapper_market_stats_data{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.socials{
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+.market-data_description{
+	padding-top: 1rem;
+}
+
+.market-data_description_name{
+	font-weight: bold;
+}
